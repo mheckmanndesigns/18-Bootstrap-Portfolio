@@ -91,6 +91,7 @@ p {
   }
 
   .contTable{
+      font-family: "livvic", sans-serif;
       border: 50px;
       padding: 2px 16px;
       box-shadow: 0 8px 16px 0 #2F4F4F;
