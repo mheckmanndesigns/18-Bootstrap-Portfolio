@@ -1,32 +1,32 @@
 .body {
     background-color: whitesmoke;
 }
+
+.jumbotron{
+    padding-top: 0px;
+  
+   
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-display: "extra bold";
+    font-size: 62px;
+ 
+}
+
 h2 {
-    font-family: 'Cutive', serif;
-    color: lightcoral;
-}
-h4 {
-    font-family: "rock Salt", cursive;
-    color: lightcoral;
-}
+    font-family: 'Raleway', sans-serif;
+    color: rebeccapurple;
+}   
+
 p {
     font-family: 'livvic', sans-serif;
 }
-.center{
-    font-family: "rock Salt", cursive;
+.quote{
+    font-style: italic;
+    color: rebeccapurple;
 }
-/*.header{
-    display: flexbox;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color:whitesmoke ;
-    max-height: 40vh;
-    color: lightcoral;
-}*/
-.justify-content-end{
-    text-align: end;
-}
+  
 
 .row {
     justify-content: center;
@@ -34,65 +34,67 @@ p {
     margin: auto;
 }
 
-/*.darkContainer {
-    background-color: rgb(1, 1, 48);
-    color: whitesmoke;
-}
 
-.liteContainer {
-    background-color: whitesmoke;
-    color: rgb(1, 1, 48);
-}*/
 .center{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+    
 }
 
 .hero{
     padding: 50px;
     display: grid;
-    background-color:white;
+    background-color:whitesmoke;
 
 }
 .heroText{
     padding: 25px 75px 25px 75px;
     color: rgb(1, 1, 48);
 }
-.myPhoto{
-    padding: 0px 25px 50p 25px;
-}
 
-.miniContainer {
-    border: 1px solid lightcoral;
-    padding: 30px;
-   
-}
-.miniContainer p{
-    font-family:'Cutive', serif;
-}
 
-.affinity {
-    padding-top: 25px;
-    padding-bottom: 12px;
-}
 .card {
     /* Add shadows to create the "card" effect */
     background-color: rgb(1, 1, 48);
     color: whitesmoke;
-
-    box-shadow: 0 4px 8px 0 rgba(240,128,128, 0.897);
+    box-shadow: 0 4px 8px 0 #2F4F4F;
     transition: 0.3s;
   }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(240,128,128, 0.897);
+    box-shadow: 0 8px 16px 0 #DAA520;
   }
   
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
+  }
+
+  #card1{
+    background: linear-gradient(to top left, #009999 0%, #66ccff 100%);
+  }
+
+  #card2{
+    background: linear-gradient(to top right, #009999 0%, #66ccff 100%);
+  }
+
+  #card3{
+    background: linear-gradient(to bottom left, #009999 0%, #66ccff 100%);
+  }
+
+  #card4{
+    background: linear-gradient(to bottom right, #009999 0%, #66ccff 100%);
+  }
+  .btn{
+      color: #009933;
+  }
+
+  .contTable{
+      border: 50px;
+      padding: 2px 16px;
+      box-shadow: 0 8px 16px 0 #2F4F4F;
+      background: whitesmoke;
   }
 
   .fa {
@@ -102,11 +104,10 @@ p {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: lightcoral;
+    color: #DAA520;
   }
   .footer {
     margin: auto;
-  
-    background-color: rgb(1, 1, 48);
+    background-color: #2F4F4F;
   
   }
